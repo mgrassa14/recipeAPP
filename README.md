@@ -9,7 +9,7 @@ Django, CSS, HTML, Javascipt, Python, Materialized
 
 ## Getting Started
 Deploy app:
-----------------------------------
+"link for deployed app"
 
 Trello board:
 https://trello.com/b/P2IJCukU/new-recipe-app
