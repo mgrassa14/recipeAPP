@@ -13,3 +13,12 @@ class Recipe(models.Model):
     def __str__(self):
         return self.title
 
+class Ingredients(models.Model):
+    name = models.CharField(max_length=100, default='ingredient')
+    quantity = models.IntegerField(default=0)
+    measurment = models.CharField(max_length=100, default='measurment')
+    
+    recipe = models.ForeignKey(Recipe, on_delete=models.CASCADE)
+    
+    def __str__(self):
+        return f"{self.name}"
